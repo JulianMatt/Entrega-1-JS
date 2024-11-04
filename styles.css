@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    transition: transform 3s ease, color 1s ease;
+}
+
+h1:hover {
+    transform: translateY(-10px);
+    color: #8A0000;
+}
